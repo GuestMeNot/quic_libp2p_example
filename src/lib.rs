@@ -38,7 +38,7 @@ pub const ETHEREUM_AVG_PACKET_LEN: usize = 1024 * 3;
 /// <https://bitcoinvisuals.com/chain-tx-size>
 pub const BITCOIN_PACKET_LEN: usize = 226;
 
-/// Noise uses well-known symmetric key encryption.
+/// Noise performs encryption using well-known key.
 type Crypto = libp2p_quic::NoiseCrypto;
 
 pub async fn create_swarm() -> Result<Swarm<RequestResponse<PingCodec>>> {
