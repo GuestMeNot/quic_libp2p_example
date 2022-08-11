@@ -13,6 +13,11 @@ rather than [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol).
 
 [What is QUIC](https://www.auvik.com/franklyit/blog/what-is-quic-protocol/)
 
+### Shout Out
+
+This series of benchmarks draws heavily on:
+    [libp2p-quic/examples/smoke.rs](https://github.com/ipfs-rust/libp2p-quic/blob/master/examples/smoke.rs)
+
 ### Why UDP?
 
 TCP has additional packet overhead to [establish connections](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment)
