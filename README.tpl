@@ -65,7 +65,6 @@ Another often sited TXN/sec. goal is Visa at [24,000 TXN/sec](https://howmuch.ne
 These results are also from the lab. In the real world Visa achieves
 [1,700 TXN/sec](https://news.bitcoin.com/no-visa-doesnt-handle-24000-tps-and-neither-does-your-pet-blockchain/).
 
-
 ### TXN size
 
 For our example, a key choice is packet size. There needs to be a balance between
