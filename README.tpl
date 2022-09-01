@@ -50,11 +50,10 @@ The performance goal of this example is to transmit and receive as many bytes as
 ## Comparisons
 
 A commonly referenced upper-bound in TPS in peer-to-peer networking is Solana.
-An often quoted TPS of Solana is 50,000 TXN/sec. Much is the delay in achieving this is in packet transmission.
-This example shows that QUIC can achieve a high packet/sec rate on the network without any significant
+An often quoted TPS of Solana is 50,000 TXN/sec.
+This example shows that QUIC can achieve a high packet/sec rate on the network without significant
 modifications. The results show the same [Order of Magnitude](https://en.wikipedia.org/wiki/Order_of_magnitude)
 as Solana''s commonly quoted 50,000 TXN.sec.
-
 
 Unfortunately, Solana''s engineers do not provide details on how they achieved their
 [TPS performance](https://solana.blog/seriously-how-fast-can-solana-blockchain-get/) in the lab.
